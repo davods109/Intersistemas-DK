@@ -1,0 +1,24 @@
+.container {
+  display: flex; /* Enable Flexbox */
+  justify-content: space-around; /* Distribute space evenly */
+  width: 100%; /* Make container span full width */
+}
+
+.izquierdiv, .derechadiv {
+  padding: 1%;
+  color: white;
+  background-color: #808B96;
+  width: 28%;
+  border: 1px solid black;
+  flex: 1; /* Make each div flexible */
+}
+
+.derechadiv {
+  padding: 1%;
+  color: white;
+  background-color: #808B96;
+  width: 28%;
+  border: 1px solid black;
+  flex: 1; /* Make each div flexible */
+}
+
